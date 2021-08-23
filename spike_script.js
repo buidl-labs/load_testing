@@ -16,8 +16,8 @@ export let options = {
   stages: [
     { duration: '10s', target: 100 }, // below normal load
     { duration: '1m', target: 100 },
-    { duration: '10s', target: 750 }, //spike to 1400 users
-    { duration: '3m', target: 750 }, //stay at 1400 for 3 mins
+    { duration: '10s', target: 2500 }, //spike to 1400 users
+    { duration: '3m', target: 2500 }, //stay at 1400 for 3 mins
     { duration: '10s', target: 100 }, //scale down. Recover stage.
     { duration: '3m', target: 100 },
     { duration: '10s', target: 0 },
